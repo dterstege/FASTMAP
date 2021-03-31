@@ -9,7 +9,7 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 
 | section  | description | 
 | ------------- | ------------- | 
-| [1. Installation instructions](#installation)   | How to install on macOS and Windows.  |
+| [1. Installation Instructions](#installation)   | How to install on macOS and Windows.  |
 | [2. Image Processing Tutorial](#processing)   | How to process a sample image set  |
 | [3. Atlas Plate Customization](#atlas)  | How to build your own atlas plates for custom projects  |
 | [4. Additional Resources](#resources)  | Helpful links for atlas plate construction  |
@@ -58,7 +58,8 @@ To use these atlas plates, download the provided atlases and unzip **only** the 
 ## 5. Contact Us
 
 **Contributors:**
-- **Dylan Terstege*** (code/conceptualization/documentation/plates) - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
+- **Dylan Terstege*** (code/conceptualization/documentation/plates) - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
+<dylan.terstege@ucalgary.ca>
 - Daniela Oboh (plates)
 
 Principal Investigator:
