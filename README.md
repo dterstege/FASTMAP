@@ -58,10 +58,10 @@ To use these atlas plates, download the provided atlases and unzip **only** the 
 ### Contact Us
 
 **Contributors:**
-- **Dylan Terstege*** - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
-- Daniela Oboh
+- **Dylan Terstege*** (code/conceptualization/documentation/plates) - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
+- Daniela Oboh (plates)
 
 Principal Investigator:
-- Jonathan Epp - https://epplab.com
+- Jonathan Epp (conceptualization) - https://epplab.com
 
 <sub><sup>***corresponding author**</sup></sub>
