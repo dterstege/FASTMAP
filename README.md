@@ -9,53 +9,53 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 
 | section  | description | 
 | ------------- | ------------- | 
-| [Installation instructions](#installation)   | How to install on macOS and Windows.  |
-| [Image Processing Tutorial](#processing)   | How to process a sample image set  |
-| [Atlas Plate Customization](#atlas)  | How to build your own atlas plates for custom projects  |
-| [Additional Resources](#resources)  | Helpful links for atlas plate construction  |
-| [Contact Us](#contact)  | Where to reach us with questions  |
+| [1. Installation instructions](#installation)   | How to install on macOS and Windows.  |
+| [2. Image Processing Tutorial](#processing)   | How to process a sample image set  |
+| [3. Atlas Plate Customization](#atlas)  | How to build your own atlas plates for custom projects  |
+| [4. Additional Resources](#resources)  | Helpful links for atlas plate construction  |
+| [5. Contact Us](#contact)  | Where to reach us with questions  |
 
 <a name="installation"/>
 
-### Installation Instructions
+### 1. Installation Instructions
 
 FASTMAP was designed with ease-of-use at the forefront of our minds.  The installation process reflects this with a simple 3-step approach:
 
- **1. Install *ImageJ***. Ensure that ImageJ is installed.  If it was not previously installed, it can be downloaded [here](https://imagej.nih.gov/ij/download.html).
+ **1.1 Install *ImageJ***. Ensure that ImageJ is installed.  If it was not previously installed, it can be downloaded [here](https://imagej.nih.gov/ij/download.html).
 
-**2. Download the Appropriate Version of FASTMAP.**  Download the appropriate version of FASTMAP for your operating system: [macOS](https://github.com/dterstege/FASTMAP/tree/main/FASTMAP_macOS) or [Windows](https://github.com/dterstege/FASTMAP/tree/main/FASTMAP_windows).  Linux has not yet been tested.
+**1.2 Download the Appropriate Version of FASTMAP.**  Download the appropriate version of FASTMAP for your operating system: [macOS](https://github.com/dterstege/FASTMAP/tree/main/FASTMAP_macOS) or [Windows](https://github.com/dterstege/FASTMAP/tree/main/FASTMAP_windows).  Linux has not yet been tested.
 
-**3. Install Plugin in *ImageJ***.  Open *ImageJ* and select "Plugins > Install...".  Navigate to the newly downloaded version of FASTMAP and allow this to save to the ImageJ Plugins folder. 
+**1.3 Install Plugin in *ImageJ***.  Open *ImageJ* and select "Plugins > Install...".  Navigate to the newly downloaded version of FASTMAP and allow this to save to the ImageJ Plugins folder. 
 
 <a name="processing"/>
 
-### Image Processing Tutorial
+### 2. Image Processing Tutorial
 
 The following guide will outline how to process a dataset using FASTMAP:
 
-**1. Images**. FASTMAP has been optimized for 8- and 16-bit .tif files, with the label of interest being in an image file which is separate from the channel to be used as a reference during atlas registration (DAPI, propidium iodide, autofluorescence, etc.). 
+**2.1 Images**. FASTMAP has been optimized for 8- and 16-bit .tif files, with the label of interest being in an image file which is separate from the channel to be used as a reference during atlas registration (DAPI, propidium iodide, autofluorescence, etc.). 
 
 If your images are not already in this format, *ImageJ* can rapidly convert image formats by selecting "Process > Batch > Convert...".
 
-**2. File Organization**. Files should be organized under a common "parent folder". This parent folder should contain at least two subfolders: one containing the "label images" (the to-be-segmented labels) and a second containining the "registration images" (images to be used as references during atlas registration). Folders can contain all images for an entire project, as long as the images for each subject are in continuous strings and corresponding files appear in the same alphabetical order in both folders.
+**2.2 File Organization**. Files should be organized under a common "parent folder". This parent folder should contain at least two subfolders: one containing the "label images" (the to-be-segmented labels) and a second containining the "registration images" (images to be used as references during atlas registration). Folders can contain all images for an entire project, as long as the images for each subject are in continuous strings and corresponding files appear in the same alphabetical order in both folders.
 
-**3. Atlas Organization**. FASTMAP is highlighted by its applicability to a nearly limitless range of biological samples, irrespective of sample type or orientation. This is due to the flexibility of the atlas plate registration and [generation](#atlas). To facilitate immediate use, sample atlases have been [provided](https://github.com/dterstege/FASTMAP/tree/main/Plates). 
+**2.3 Atlas Organization**. FASTMAP is highlighted by its applicability to a nearly limitless range of biological samples, irrespective of sample type or orientation. This is due to the flexibility of the atlas plate registration and [generation](#atlas). To facilitate immediate use, sample atlases have been [provided](https://github.com/dterstege/FASTMAP/tree/main/Plates). 
 
 To use these atlas plates, download the provided atlases and unzip **only** the main folders (ex. "Sagittal.zip") and **not** the nested zipped folders (ex. "RoiSet1.zip"). Keep these unzipped main folders in an easilly accessible "Plates" folder.
 
-**4. Initialization**. With image files and atlas plates in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels
+**2.4 Initialization**. With image files and atlas plates in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels
 
 <a name="atlas"/>
 
-### Atlas Plate Customization
+### 3. Atlas Plate Customization
 
 <a name="resources"/>
 
-### Additional Resources
+### 4. Additional Resources
 
 <a name="contact"/>
 
-### Contact Us
+### 5. Contact Us
 
 **Contributors:**
 - **Dylan Terstege*** (code/conceptualization/documentation/plates) - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
