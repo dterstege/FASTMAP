@@ -34,6 +34,7 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 The following guide will outline how to process a dataset using FASTMAP:
 
 **1. Images**. FASTMAP has been optimized for 8- and 16-bit .tif files, with the label of interest being in an image file which is separate from the channel to be used as a reference during atlas registration (DAPI, propidium iodide, autofluorescence, etc.). 
+
 If your images are not already in this format, *ImageJ* can rapidly convert image formats by selecting "Process > Batch > Convert...".
 
 **2. File Organization**. Files should be organized under a common "parent folder". This parent folder should contain at least two subfolders: one containing the "label images" (the to-be-segmented labels) and a second containining the "registration images" (images to be used as references during atlas registration). Folders can contain all images for an entire project, as long as the images for each subject are in continuous strings and corresponding files appear in the same alphabetical order in both folders.
