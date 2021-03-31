@@ -13,7 +13,8 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 | [2. Image Processing Tutorial](#processing)   | How to process a sample image set  |
 | [3. Atlas Plate Customization](#atlas)  | How to build your own atlas plates for custom projects  |
 | [4. Additional Resources](#resources)  | Helpful links for atlas plate construction  |
-| [5. Contact Us](#contact)  | Where to reach us with questions  |
+| [5. Troubleshooting](#ts) | Potential complications and how to overcome them |
+| [6. Contact Us](#contact)  | Where to reach us with questions  |
 
 <a name="installation"/>
 
@@ -53,9 +54,13 @@ To use these atlas plates, download the provided atlases and unzip **only** the 
 
 ## 4. Additional Resources
 
+<a name="ts"/>
+
+## 5. Troubleshooting
+
 <a name="contact"/>
 
-## 5. Contact Us
+## 6. Contact Us
 
 **Contributors:**
 - **Dylan Terstege*** (code/conceptualization/documentation/plates) - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
