@@ -10,7 +10,7 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 | section  | description | 
 | ------------- | ------------- | 
 | [Installation instructions](#installation)   | How to install on macOS and Windows.  |
-| [Image Processing](#processing)   | How to process a sample image set  |
+| [Image Processing Tutorial](#processing)   | How to process a sample image set  |
 | [Atlas Plate Customization](#atlas)  | How to build your own atlas plates for custom projects  |
 | [Additional Resources](#resources)  | Helpful links for atlas plate construction  |
 | [Contact Us](#contact)  | Where to reach us with questions  |
@@ -29,7 +29,11 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 <a name="processing"/>
 
-### Image Processing
+### Image Processing Tutorial
+
+The following guide will outline how to process a dataset using FASTMAP:
+
+**1. File Organization**.
 
 <a name="atlas"/>
 
