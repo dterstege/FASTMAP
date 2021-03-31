@@ -2,6 +2,9 @@ FASTMAP
 =======
 **FASTMAP** (**F**lexible **A**tlas **S**egmentation **T**ool for **M**ulti-**A**rea **P**rocessing) is a tool for the registration of biological images to custom atlas plastes and the segmentation of labels of interest within atlas regions.  This tool operates as an *ImageJ Plugin* that draws upon versatile and powerful image analyses tools in *ImageJ* and presents them in a clean, concise, and easy to follow pipeline. 
 
+![DAPImask](https://user-images.githubusercontent.com/44174532/113199552-7d15f100-9224-11eb-839b-f4d0a6e3a253.png)
+
+
 FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp Lab at the University of Calgary.
 
 
