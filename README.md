@@ -5,7 +5,7 @@ FASTMAP
 FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp Lab at the University of Calgary.
 
 
-### Table of Contents
+## Table of Contents
 
 | section  | description | 
 | ------------- | ------------- | 
@@ -17,7 +17,7 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 
 <a name="installation"/>
 
-### 1. Installation Instructions
+## 1. Installation Instructions
 
 FASTMAP was designed with ease-of-use at the forefront of our minds.  The installation process reflects this with a simple 3-step approach:
 
@@ -29,7 +29,7 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 <a name="processing"/>
 
-### 2. Image Processing Tutorial
+## 2. Image Processing Tutorial
 
 The following guide will outline how to process a dataset using FASTMAP:
 
@@ -47,15 +47,15 @@ To use these atlas plates, download the provided atlases and unzip **only** the 
 
 <a name="atlas"/>
 
-### 3. Atlas Plate Customization
+## 3. Atlas Plate Customization
 
 <a name="resources"/>
 
-### 4. Additional Resources
+## 4. Additional Resources
 
 <a name="contact"/>
 
-### 5. Contact Us
+## 5. Contact Us
 
 **Contributors:**
 - **Dylan Terstege*** (code/conceptualization/documentation/plates) - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
