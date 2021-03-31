@@ -59,7 +59,9 @@ To use these atlas plates, download the provided atlases and unzip **only** the 
 
 **Contributors:**
 - **Dylan Terstege*** - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
- <sub><sup>*corresponding author</sup></sub>
+
+<sub><sup>*corresponding author</sup></sub>
+
 - Daniela Oboh
 
 Principal Investigator:
