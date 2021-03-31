@@ -25,7 +25,7 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 **2. Download the Appropriate Version of FASTMAP.**  Download the appropriate version of FASTMAP for your operating system: [macOS](https://github.com/dterstege/FASTMAP) or [Windows](https://github.com/dterstege/FASTMAP).  Linux has not yet been tested.
 
-**3. Install Plugin in *ImageJ***.  Open *ImageJ* and select "Plugins>Install...".  Navigate to the newly downloaded version of FASTMAP and allow this to save to the ImageJ Plugins folder. 
+**3. Install Plugin in *ImageJ***.  Open *ImageJ* and select "Plugins > Install...".  Navigate to the newly downloaded version of FASTMAP and allow this to save to the ImageJ Plugins folder. 
 
 <a name="processing"/>
 
@@ -33,7 +33,9 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 The following guide will outline how to process a dataset using FASTMAP:
 
-**1. File Organization**.
+**1. Images**. FASTMAP has been optimized for 8- and 16-bit .tif files, with the label of interest being in an image file which is separate from the channel to be used as a reference during registration (DAPI, propidium iodide, autofluorescence, etc.). If your images are not already in this format, *ImageJ* can rapidly convert image formats by selecting "Process > Batch > Convert...".
+
+**2. File Organization**. Files should be organized under a common "parent folder". This parent folder should contain at least two subfolders: one containing 
 
 <a name="atlas"/>
 
