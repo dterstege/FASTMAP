@@ -29,9 +29,15 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 <a name="processing"/>
 
+### Image Processing
+
 <a name="atlas"/>
 
+### Atlas Plate Customization
+
 <a name="resources"/>
+
+### Additional Resources
 
 <a name="contact"/>
 
