@@ -39,9 +39,11 @@ If your images are not already in this format, *ImageJ* can rapidly convert imag
 
 **2. File Organization**. Files should be organized under a common "parent folder". This parent folder should contain at least two subfolders: one containing the "label images" (the to-be-segmented labels) and a second containining the "registration images" (images to be used as references during atlas registration). Folders can contain all images for an entire project, as long as the images for each subject are in continuous strings and corresponding files appear in the same alphabetical order in both folders.
 
-**3. Atlas Organization**. FASTMAP is highlighted by its applicability to a nearly limitless range of biological samples, irrespective of sample type or orientation. This is due to the flexibility of the atlas plate registration and [generation](#atlas).
+**3. Atlas Organization**. FASTMAP is highlighted by its applicability to a nearly limitless range of biological samples, irrespective of sample type or orientation. This is due to the flexibility of the atlas plate registration and [generation](#atlas). To facilitate immediate use, sample atlases have been [provided](https://github.com/dterstege/FASTMAP/tree/main/Plates). 
 
-**4. Initialization**. With files in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels
+To use these atlas plates, download the provided atlases and unzip **only** the main folders (ex. "Sagittal.zip") and **not** the nested zipped folders (ex. "RoiSet1.zip"). Keep these unzipped main folders in an easilly accessible "Plates" folder.
+
+**4. Initialization**. With image files and atlas plates in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels
 
 <a name="atlas"/>
 
@@ -56,7 +58,7 @@ If your images are not already in this format, *ImageJ* can rapidly convert imag
 ### Contact Us
 
 **Author:**
-**Dylan Terstege** - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
+- **Dylan Terstege** - [@dterstege](https://twitter.com/dterstege) - <dylan.terstege@ucalgary.ca>
 
 Principal Investigator:
-Jonathan Epp - https://epplab.com
+- Jonathan Epp - https://epplab.com
