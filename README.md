@@ -44,7 +44,12 @@ If your images are not already in this format, *ImageJ* can rapidly convert imag
 
 To use these atlas plates, download the provided atlases and unzip **only** the main folders (ex. "Sagittal.zip") and **not** the nested zipped folders (ex. "RoiSet1.zip"). Keep these unzipped main folders in an easilly accessible "Plates" folder.
 
-**2.4 Initialization**. With image files and atlas plates in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels
+**2.4 Initialization**. With image files and atlas plates in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels. A second prompt will ask the user to navigate to a folder containing the desired atlas plates for the analysis.
+
+**2.5 Image Assignment**. A dialogue window titled FASTMAP will populate and prompt the user to identify which of the subfolders in the parent folder contains the *registration images* and which contains *label images*.
+
+**2.6 Range and Analysis Type**. The plugin will then display the number of files in the registration and label subfolders. Output data will be appended based upon the range inputted during this step, so if images from multiple samples are in the same folder the the range of the current sample should be defined.This window also asks which type(s) of analysis should be applied to the image set. Analysis types are as follows:
+- fsdf 
 
 <a name="atlas"/>
 
