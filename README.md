@@ -81,11 +81,11 @@ At the bottom of this window, the user will be asked whether ROIs have already b
 ## 6. Contact Us
 
 **Contributors:**
-- **Dylan Terstege*** (code/conceptualization/documentation/plates) - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
+- **Dylan Terstege*** (code/tool conceptualization/written documentation/atlas plates) - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
 <dylan.terstege@ucalgary.ca>
 - Daniela Oboh (plates)
 
 Principal Investigator:
-- Jonathan Epp (conceptualization) - https://epplab.com
+- Jonathan Epp (tool conceptualization) - https://epplab.com
 
 <sub><sup>***corresponding author**</sup></sub>
