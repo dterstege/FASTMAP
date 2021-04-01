@@ -57,17 +57,21 @@ Both the volumetric analysis and object counts analysis types have been written 
 
 At the bottom of this window, the user will be asked whether ROIs have already been gathered for this range of images. If images have previously been processed through FASTMAP and the ROIs have been saved, this option can be chosen to conserve the previously registered ROIs. For more information on saving ROIs, click [here](#save).
 
-**2.7 Choose Registration Plate**. A composite image 
+**2.7 Choose Registration Plate**. A composite image displaying all plates from the selected atlas will populate on the screen. Drag this to the right side of the screen before selecting 'OK', otherwise it will be hidden by the next image to populate the screen. This image is the working registration image and a prompt will ask which atlas plate it most closely resembles.
 
-**2.8 Adjusting Registration**.
+**2.8 Automated resizing**. FASTMAP can be applied to images collected using a wide variety of microscopy techniques. Furthermore, it can be applied to images of different sizes and resolutions. If the user is looking at the same group of regions using multiple microscopy types or imaging magnifications, the plugin can scale atlas plates to limit the extent to which regions need to be manually resized and manipulated. This linear transform is initiated by drawing a rectangle around the sample in the image.
+
+**2.9 Adjusting Registration**. Missized and often off-centered regions will then populate on the registration image and a window titled *ROIManager* will appear appear. Using this ROI Manager, select all regions (click on the region at the top of the list, hold the 'shift' key, then click on the region at the bottom of the list), next select "More... > OR(Combine)", then click "add(t)". Finally, click 'OK'.
+
+One-by-One, regions will resize and come to the center of the image. As this happens, move and adjust the ROIs as needed - clicking 'OK' on the dialogue window once satisfied with each region.
 
 <a name="save"/>
 
-File saving
+After adjusting all ROIs, select all ROIs in the ROI Manager window and save the ROI set using a name specific to that image. This will allow for the adjusted ROIs to be called upon at a later date should the user wish to apply different thresholding parameters or a different analysis type to the image.
 
 <a name="settings"/>
 
-**2.x Settings**.
+**2.10 Settings**.
 
 
 <a name="atlas"/>
