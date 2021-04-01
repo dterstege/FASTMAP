@@ -73,6 +73,20 @@ After adjusting all ROIs, select all ROIs in the ROI Manager window and save the
 
 **2.10 Settings**.
 
+There are a few settings which may be customized to better suit particular images. These can be adusted by dragging and dropping the .ijm file into *ImageJ* and editting lines as needed. The default settings upon download are set to:
+
+- Thresholding: "Default"
+- Threshold Background Colour: "Dark"
+
+These settings are found in both the volumetric analysis and the object counts sections of the code and should be adjusted according to the analysis type.
+
+   *Tip*: If using an already binarized image, the following lines can simply be commented out using "//":
+   ```
+    setAutoThreshold("Default dark"); //may comment out this line if using an already binary image
+    run("Convert to Mask"); //may comment out this line if using an already binary image
+   ```
+
+**2.11 Outputs**. After all images from the specified file range have been processed, output files will be appear in the parent folder. Depending on the analysis type, they will either be named *VolumetricAnalysis.csv* or *RegionalCounts.csv*. There is no sample identifier in this file name, so it is advised that the filename is edited before the user starts processing the next range of images to avoid overwritting the previous file.
 
 <a name="atlas"/>
 
