@@ -1,6 +1,6 @@
 FASTMAP
 =======
-**FASTMAP** (**F**lexible **A**tlas **S**egmentation **T**ool for **M**ulti-**A**rea **P**rocessing) is a tool for the registration of biological images to custom atlas plastes and the segmentation of labels of interest within atlas regions.  This tool operates as an *ImageJ Plugin* that draws upon versatile and powerful image analyses tools in *ImageJ* and presents them in a clean, concise, and easy to follow pipeline. 
+**FASTMAP** (**F**lexible **A**tlas **S**egmentation **T**ool for **M**ulti-**A**rea **P**rocessing) is a tool for the registration of biological images to custom atlas plastes and the segmentation of labels of interest within atlas regions.  This tool operates as an *ImageJ Plugin* that draws upon versatile and powerful image analyses tools in *ImageJ* and presents them as a clean, concise, and easy to follow plugin. 
 
 FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp Lab at the University of Calgary.
 
@@ -57,7 +57,13 @@ Both the volumetric analysis and object counts analysis types have been written 
 
 At the bottom of this window, the user will be asked whether ROIs have already been gathered for this range of images. If images have previously been processed through FASTMAP and the ROIs have been saved, this option can be chosen to conserve the previously registered ROIs. For more information on saving ROIs, click [here](#save).
 
-**2.7 Choose Registration Plate**.
+**2.7 Choose Registration Plate**. A composite image 
+
+**2.8 Adjusting Registration**.
+
+<a name="save"/>
+
+File saving
 
 <a name="settings"/>
 
