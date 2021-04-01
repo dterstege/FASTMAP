@@ -4,6 +4,7 @@ FASTMAP
 
 FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp Lab at the University of Calgary.
 
+<a name="toc"/>
 
 ## Table of Contents
 
