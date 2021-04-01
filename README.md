@@ -7,7 +7,7 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 
 ## Table of Contents
 
-| section  | description | 
+| Section  | Description | 
 | ------------- | ------------- | 
 | [1. Installation Instructions](#installation)   | How to install on macOS and Windows.  |
 | [2. Image Processing Tutorial](#processing)   | How to process a sample image set  |
