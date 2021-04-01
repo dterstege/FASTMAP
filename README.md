@@ -26,7 +26,7 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 **1.2 Download the Appropriate Version of FASTMAP.**  Download the appropriate version of FASTMAP for your operating system: [macOS](https://github.com/dterstege/FASTMAP/tree/main/FASTMAP_macOS) or [Windows](https://github.com/dterstege/FASTMAP/tree/main/FASTMAP_windows).  Linux has not yet been tested.
 
-**1.3 Install Plugin in *ImageJ***.  Open *ImageJ* and select "Plugins > Install...".  Navigate to the newly downloaded version of FASTMAP and allow this to save to the ImageJ Plugins folder. 
+**1.3 Install Plugin in *ImageJ***.  Before installing, see [settings](#settings) section to determine whether the plugin should be modified in any way to better suit your project prior to installation. Once satisfied with the settings, open *ImageJ* and select "Plugins > Install...".  Navigate to the newly downloaded version of FASTMAP and allow this to save to the ImageJ Plugins folder. 
 
 <a name="processing"/>
 
@@ -49,7 +49,20 @@ To use these atlas plates, download the provided atlases and unzip **only** the 
 **2.5 Image Assignment**. A dialogue window titled FASTMAP will populate and prompt the user to identify which of the subfolders in the parent folder contains the *registration images* and which contains *label images*.
 
 **2.6 Range and Analysis Type**. The plugin will then display the number of files in the registration and label subfolders. Output data will be appended based upon the range inputted during this step, so if images from multiple samples are in the same folder the the range of the current sample should be defined.This window also asks which type(s) of analysis should be applied to the image set. Analysis types are as follows:
-- fsdf 
+
+- Volumetric Analysis: reports the total area of the region, the summed area of all labels within the region, and the percentage of the region that is comprised of labels.
+- Object Counts: reports the total area of the region and number of objects counted within each region.
+
+Both the volumetric analysis and object counts analysis types have been written to use the default auto-thresholding parameters of *ImageJ*. If working with already binarized labels as inputs or raw images in which the default thresholding is insufficient, see the [settings](#settings) section for information on how to modify the plugin to better suit the input images.
+
+At the bottom of this window, the user will be asked whether ROIs have already been gathered for this range of images. If images have previously been processed through FASTMAP and the ROIs have been saved, this option can be chosen to conserve the previously registered ROIs. For more information on saving ROIs, click [here](#save).
+
+**2.7 Choose Registration Plate**.
+
+<a name="settings"/>
+
+**2.x Settings**.
+
 
 <a name="atlas"/>
 
