@@ -93,7 +93,11 @@ These settings are found in both the volumetric analysis and the object counts s
 
 ## 3. Atlas Plate Customization
 
-A benefit to FASTMAP over other image registration tools is its atlas flexibility. With minimal up-front tracing, atlases can be generated for application to any image set. The process of generating a custom atlas is outlined in the following steps:
+A benefit to FASTMAP over other image registration tools is its atlas flexibility. With minimal up-front tracing, atlases can be generated for application to any image set. 
+
+Sample plates can be found [here](https://github.com/dterstege/FASTMAP/tree/main/Plates).
+
+The process of generating a custom atlas is outlined in the following steps:
 
 **3.1 Collecting Reference Images**. All atlases should be based off of something, be it a subset of regions in an existing atlas or clear delinieations in an all-encompassing range of your own samples.
 
