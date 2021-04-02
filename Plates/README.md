@@ -9,4 +9,4 @@ The attached folders contain sample atlas plates which can be used as reference 
 
 **Atlases on File** (contributors listed)
 - Allen Mouse Brain Atlas - Sagittal Orientation (Dylan Terstege - University of Calgary)
-- Allen Mouse Brain Atlas - Coronal Orientation, Single Hemisphere (Daniela Oboh - University of Calgary)
+- Allen Mouse Brain Atlas - Coronal Orientation, Single Hemisphere - Select Regions (Daniela Oboh - University of Calgary)
