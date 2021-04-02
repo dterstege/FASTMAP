@@ -93,6 +93,10 @@ These settings are found in both the volumetric analysis and the object counts s
 
 ## 3. Atlas Plate Customization
 
+A benefit to FASTMAP over other image registration tools is its atlas flexibility. With minimal up-front tracing, atlases can be generated for application to any image set.
+
+
+
 <a name="resources"/>
 
 ## 4. Additional Resources
