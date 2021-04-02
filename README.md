@@ -64,7 +64,7 @@ At the bottom of this window, the user will be asked whether ROIs have already b
 
 **2.9 Adjusting Registration**. Missized and often off-centered regions will then populate on the registration image and a window titled *ROIManager* will appear appear. Using this ROI Manager, select all regions (click on the region at the top of the list, hold the 'shift' key, then click on the region at the bottom of the list), next select "More... > OR(Combine)", then click "add(t)". Finally, click 'OK'.
 
-One-by-One, regions will resize and come to the center of the image. As this happens, move and adjust the ROIs as needed - clicking 'OK' on the dialogue window once satisfied with each region.
+One-by-One, regions will resize and come to the center of the image. Move, adjust, or delete the ROIs as needed - clicking 'OK' on the dialogue window once satisfied with each region.
 
 <a name="save"/>
 
