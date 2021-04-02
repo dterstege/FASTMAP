@@ -101,7 +101,9 @@ Sample plates can be found [here](https://github.com/dterstege/FASTMAP/tree/main
 
 The process of generating a custom atlas is outlined in the following steps:
 
-**3.1 Collecting Reference Images**. All atlases should be based off of something, be it a subset of regions in an existing atlas or clear delinieations in an all-encompassing range of your own samples.
+**3.1 Collecting Reference Images**. All atlases should be based off of something. This could be a subset of regions in an existing atlas or clearly delineated regions in an all-encompassing range of your own samples. These images do not need to be of any particular format or resolution, but should be clear enough for easy tracing of regions of interest.
+
+**3.2 Region Tracing**. 
 
 
 
