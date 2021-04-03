@@ -15,8 +15,8 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 | [3. Atlas Plate Customization](#atlas)  | How to build your own atlas plates for custom projects  |
 | [4. Additional Resources](#resources)  | Helpful links for atlas plate construction  |
 | [5. Troubleshooting](#ts) | Potential complications and how to overcome them |
-| [6. 
-| [6. Contact Us](#contact)  | Where to reach us with questions  |
+| [6. Citation](#cite) | How to cite FASTMAP |
+| [7. Contact Us](#contact)  | Where to reach us with questions  |
 
 <a name="installation"/>
 
@@ -117,9 +117,13 @@ The process of generating a custom atlas is outlined in the following steps:
 
 ## 5. Troubleshooting
 
+<a name="cite"/>
+
+## 6. Citation
+
 <a name="contact"/>
 
-## 6. Contact Us
+## 7. Contact Us
 
 **Contributors:**
 - **Dylan Terstege*** (code/tool conceptualization/written documentation/atlas plates) - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
