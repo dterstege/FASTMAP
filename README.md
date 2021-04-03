@@ -112,6 +112,11 @@ Tips for region tracing:
 - Ensure that regions are not overlapping at all during initial tracing
 - If ROIs do not cover the entire X and Y range of the sample, add a dummy ROI as a space filler. This will ensure that regions resize correctly when running the plugin. For an example of this, see the [example coronal plates]().
 
+Continue tracing and renaming until all regions of interest present in the reference image have been traced.
+
+- **3.3 Saving Plates**. With all regions traced, highlight all ROIs in the ROI Manager applet then click "More > Save". Plates should be saved to a designated atlas folder as "RoiSet_xx.zip", with xx being an identifier unique to that particular plate. Leading zeros are not required for single digit identifiers.
+
+With regions saved, the current reference image can be closed and the next reference image can be loaded. ROIs aligned to the previous reference image can then be modified, deleted, or added to as needed.
 
 
 
