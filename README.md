@@ -13,10 +13,9 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 | [1. Installation Instructions](#installation)   | How to install on macOS and Windows.  |
 | [2. Image Processing Tutorial](#processing)   | How to process a sample image set  |
 | [3. Atlas Plate Customization](#atlas)  | How to build your own atlas plates for custom projects  |
-| [4. Additional Resources](#resources)  | Helpful links for atlas plate construction  |
-| [5. Troubleshooting](#ts) | Potential complications and how to overcome them |
-| [6. Citation](#cite) | How to cite FASTMAP |
-| [7. Contact Us](#contact)  | Where to reach us with questions  |
+| [4. Troubleshooting](#ts) | Potential complications and how to overcome them |
+| [5. Citation](#cite) | How to cite FASTMAP |
+| [6. Contact Us](#contact)  | Where to reach us with questions  |
 
 <a name="installation"/>
 
@@ -120,23 +119,24 @@ With regions saved, the current reference image can be closed and the next refer
 
 - **3.4 Composite Atlas Image**. When running the plugin, a composite image of all of the plates in the selected atlas populates on the screen and the user is asked to identify which plate most closely aligns with the image they are registering. This composite image can be generated using a wide variety of programs (Adobe Illustrator and Microsoft Office's PowerPoint both work really well for putting together quick composite images). The important notes with this composite are the following:
 - Composite image files must be in .tif format. Images can initially be generated as a .PNG or .JPG before being converted to a .tif file in *ImageJ*
-- The name of the composite image file must match the name of the atlas folder. For example, the sample [mouse sagittal atlas]() is in a folder called "Sagittal", so the composite image is named "Sagittal.tif".
-
-<a name="resources"/>
-
-## 4. Additional Resources
+- The name of the composite image file must match the name of the atlas folder. For example, the sample [mouse sagittal atlas](https://github.com/dterstege/FASTMAP/blob/main/Plates/Sagittal.zip) is in a folder called "Sagittal", so the composite image is named "Sagittal.tif".
 
 <a name="ts"/>
 
-## 5. Troubleshooting
+## 4. Troubleshooting
+
+Troubleshooting section will be updated periodically should common issues start to arise with the plugin.
 
 <a name="cite"/>
 
-## 6. Citation
+## 5. Citation
+
+If you find FASTMAP to be useful, and apply it in your research, please cite the following article outlining this flexible open-source atlas registration tool:
+
 
 <a name="contact"/>
 
-## 7. Contact Us
+## 6. Contact Us
 
 **Contributors:**
 - **Dylan Terstege*** (code/tool conceptualization/written documentation/atlas plates) - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
