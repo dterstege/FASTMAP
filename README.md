@@ -118,7 +118,9 @@ Continue tracing and renaming until all regions of interest present in the refer
 
 With regions saved, the current reference image can be closed and the next reference image can be loaded. ROIs aligned to the previous reference image can then be modified, deleted, or added to as needed.
 
-
+- **3.4 Composite Atlas Image**. When running the plugin, a composite image of all of the plates in the selected atlas populates on the screen and the user is asked to identify which plate most closely aligns with the image they are registering. This composite image can be generated using a wide variety of programs (Adobe Illustrator and Microsoft Office's PowerPoint both work really well for putting together quick composite images). The important notes with this composite are the following:
+- Composite image files must be in .tif format. Images can initially be generated as a .PNG or .JPG before being converted to a .tif file in *ImageJ*
+- The name of the composite image file must match the name of the atlas folder. For example, the sample [mouse sagittal atlas]() is in a folder called "Sagittal", so the composite image is named "Sagittal.tif".
 
 <a name="resources"/>
 
