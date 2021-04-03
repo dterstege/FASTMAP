@@ -104,7 +104,13 @@ The process of generating a custom atlas is outlined in the following steps:
 
 - **3.1 Collecting Reference Images**. All atlases should be based off of something. This could be a subset of regions in an existing atlas or clearly delineated regions in an all-encompassing range of your own samples. These images do not need to be of any particular format or resolution, but should be clear enough for easy tracing of regions of interest.
 
-- **3.2 Region Tracing**. 
+- **3.2 Region Tracing**. Open the first of the reference images using *ImageJ*. With the Polygon Tool, trace a region of interest. By hitting "t" on the keyboard, add this ROI to the ROI Manager applet. Rename this newly logged ROI with the name of the region.
+
+Tips for region tracing:
+
+- Clicking "Show All" in the ROI Manager applet is recommended.
+- Ensure that regions are not overlapping at all during initial tracing
+- If ROIs do not cover the entire X and Y range of the sample, add a dummy ROI as a space filler. This will ensure that regions resize correctly when running the plugin. For an example of this, see the [example coronal plates]().
 
 
 
