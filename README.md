@@ -35,6 +35,8 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 The following guide will outline how to process a dataset using FASTMAP:
 
+**INITIALIZATION**
+
 - **2.1 Images**. FASTMAP has been optimized for 8- and 16-bit .tif files, with the label of interest being in an image file which is separate from the channel to be used as a reference during atlas registration (DAPI, propidium iodide, autofluorescence, etc.). 
 
 If your images are not already in this format, *ImageJ* can rapidly convert image formats by selecting "Process > Batch > Convert...".
@@ -45,7 +47,9 @@ If your images are not already in this format, *ImageJ* can rapidly convert imag
 
 To use these atlas plates, download the provided atlases and unzip **only** the main folders (ex. "Sagittal.zip") and **not** the nested zipped folders (ex. "RoiSet1.zip"). Keep these unzipped main folders in an easilly accessible "Plates" folder.
 
-- **2.4 Initialization**. With image files and atlas plates in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels. A second prompt will ask the user to navigate to a folder containing the desired atlas plates for the analysis.
+**RUNNING THE PLUGIN**
+
+- **2.4 Run Plugin**. With image files and atlas plates in proper formats and organizations, the plugin may now be ran (open *ImageJ*, "Plugins > FASTMAP"). The user will be prompted to navigate to the parent folder containing both image channels. A second prompt will ask the user to navigate to a folder containing the desired atlas plates for the analysis.
 
 - **2.5 Image Assignment**. A dialogue window titled FASTMAP will populate and prompt the user to identify which of the subfolders in the parent folder contains the *registration images* and which contains *label images*.
 
@@ -73,6 +77,8 @@ With all regions adjusted, any ROIs which aren't essential to the analysis may n
 After adjusting all ROIs, select all ROIs in the ROI Manager window and save the ROI set using a name specific to that image. This will allow for the adjusted ROIs to be called upon at a later date should the user wish to apply different thresholding parameters or a different analysis type to the image.
 
 <a name="settings"/>
+
+**OTHER NOTES**
 
 - **2.10 Settings**.
 
