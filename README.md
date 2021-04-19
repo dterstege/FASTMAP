@@ -29,6 +29,8 @@ FASTMAP was designed with ease-of-use at the forefront of our minds.  The instal
 
 - **1.3 Install Plugin in *ImageJ***.  Before installing, see [settings](#settings) section to determine whether the plugin should be modified in any way to better suit your project prior to installation. Once satisfied with the settings, open *ImageJ* and select "Plugins > Install...".  Navigate to the newly downloaded version of FASTMAP and allow this to save to the ImageJ Plugins folder. 
 
+*Note: If installing on FIJI, ensure you use the "Install..." command rather than the "Install Plugin Command".*
+
 <a name="processing"/>
 
 ## 2. Image Processing Tutorial
