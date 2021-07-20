@@ -87,10 +87,10 @@ One-by-One, regions will resize and come to the center of the image. Move, adjus
 
 <img width="1460" alt="Screen Shot 2021-07-15 at 2 51 17 PM" src="https://user-images.githubusercontent.com/44174532/126401308-9ecdb049-3118-426e-a670-79a7eedc7896.png">
 
-<img width="1461" alt="Screen Shot 2021-07-15 at 4 46 57 PM" src="https://user-images.githubusercontent.com/44174532/126401330-dba0c5b0-d147-4212-b9c4-6649a1157fae.png">
-
 
 With all regions adjusted, any ROIs which aren't essential to the analysis may now be deleted from the ROI Manager.
+
+<img width="1461" alt="Screen Shot 2021-07-15 at 4 46 57 PM" src="https://user-images.githubusercontent.com/44174532/126401330-dba0c5b0-d147-4212-b9c4-6649a1157fae.png">
 
 <a name="save"/>
 
