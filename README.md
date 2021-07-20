@@ -55,10 +55,14 @@ To use these atlas plates, download the provided atlases and unzip **only** the 
 
 - **2.5 Image Assignment**. A dialogue window titled FASTMAP will populate and prompt the user to identify which of the subfolders in the parent folder contains the *registration images* and which contains *label images*.
 
+<img width="409" alt="Screen Shot 2021-07-15 at 2 33 50 PM" src="https://user-images.githubusercontent.com/44174532/126400951-12f6e4ee-d234-4b37-b867-d9c235d25956.png">
+
 - **2.6 Range and Analysis Type**. The plugin will then display the number of files in the registration and label subfolders. Output data will be appended based upon the range inputted during this step, so if images from multiple samples are in the same folder the the range of the current sample should be defined.This window also asks which type(s) of analysis should be applied to the image set. Analysis types are as follows:
 
    - Volumetric Analysis: reports the total area of the region, the summed area of all labels within the region, and the percentage of the region that is comprised of labels.
    - Object Counts: reports the total area of the region and number of objects counted within each region.
+
+<img width="373" alt="Screen Shot 2021-07-15 at 2 34 45 PM" src="https://user-images.githubusercontent.com/44174532/126401020-497e00d7-6514-41ec-97f0-967bbf64d012.png">
 
 Both the volumetric analysis and object counts analysis types have been written to use the default auto-thresholding parameters of *ImageJ*. If working with already binarized labels as inputs or raw images in which the default thresholding is insufficient, see the [settings](#settings) section for information on how to modify the plugin to better suit the input images.
 
@@ -66,11 +70,25 @@ At the bottom of this window, the user will be asked whether ROIs have already b
 
 - **2.7 Choose Registration Plate**. A composite image displaying all plates from the selected atlas will populate on the screen. Drag this to the right side of the screen before selecting 'OK', otherwise it will be hidden by the next image to populate the screen. This image is the working registration image and a prompt will ask which atlas plate it most closely resembles.
 
+<img width="779" alt="Screen Shot 2021-07-15 at 2 35 41 PM" src="https://user-images.githubusercontent.com/44174532/126401056-a410c5ac-b629-4b60-8c7e-ee8d97916b7c.png">
+
+<img width="1459" alt="Screen Shot 2021-07-15 at 2 40 49 PM" src="https://user-images.githubusercontent.com/44174532/126401228-1eebafdb-dd2f-429d-b0f6-cb377cd83376.png">
+
+
 - **2.8 Automated resizing**. FASTMAP can be applied to images collected using a wide variety of microscopy techniques. Furthermore, it can be applied to images of different sizes and resolutions. If the user is looking at the same group of regions using multiple microscopy types or imaging magnifications, the plugin can scale atlas plates to limit the extent to which regions need to be manually resized and manipulated. This linear transform is initiated by drawing a rectangle around the sample in the image.
+
+<img width="1458" alt="Screen Shot 2021-07-15 at 2 38 11 PM" src="https://user-images.githubusercontent.com/44174532/126401086-298d93be-2756-44c3-81ea-e1be6e65b507.png">
 
 - **2.9 Adjusting Registration**. Missized and often off-centered regions will then populate on the registration image and a window titled *ROIManager* will appear appear. Using this ROI Manager, select all regions (click on the region at the top of the list, hold the 'shift' key, then click on the region at the bottom of the list), next select "More... > OR(Combine)", then click "add(t)". Finally, click 'OK'.
 
+<img width="1463" alt="Screen Shot 2021-07-15 at 2 43 41 PM" src="https://user-images.githubusercontent.com/44174532/126401267-f10c330f-7601-42ca-badb-cf1b36f44388.png">
+
 One-by-One, regions will resize and come to the center of the image. Move, adjust, or delete the ROIs as needed - clicking 'OK' on the dialogue window once satisfied with each region. No need to adjust any dummy regions, but do not delete until after all regions have been adjusted.
+
+<img width="1460" alt="Screen Shot 2021-07-15 at 2 51 17 PM" src="https://user-images.githubusercontent.com/44174532/126401308-9ecdb049-3118-426e-a670-79a7eedc7896.png">
+
+<img width="1461" alt="Screen Shot 2021-07-15 at 4 46 57 PM" src="https://user-images.githubusercontent.com/44174532/126401330-dba0c5b0-d147-4212-b9c4-6649a1157fae.png">
+
 
 With all regions adjusted, any ROIs which aren't essential to the analysis may now be deleted from the ROI Manager.
 
