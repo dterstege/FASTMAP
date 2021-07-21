@@ -135,7 +135,7 @@ Tips for region tracing:
 
 - Clicking "Show All" in the ROI Manager applet is recommended.
 - Ensure that regions are not overlapping at all during initial tracing
-- If ROIs do not cover the entire X and Y range of the sample, add a dummy ROI as a space filler. This will ensure that regions resize correctly when running the plugin. For an example of this, see the [example coronal plates]().
+- If ROIs do not cover the entire X and Y range of the sample, add a dummy ROI as a space filler. This will ensure that regions resize correctly when running the plugin. For an example of this, see the [example coronal plates](https://github.com/dterstege/FASTMAP/blob/main/Plates/Coronal_LowLevel.zip).
 
 Continue tracing and renaming until all regions of interest present in the reference image have been traced.
 
