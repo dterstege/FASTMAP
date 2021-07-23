@@ -39,7 +39,7 @@ The following guide will outline how to process a dataset using FASTMAP:
 
 **INITIALIZATION**
 
-- **2.1 Images**. FASTMAP has been optimized for 8- and 16-bit .tif files, with the label of interest being in an image file which is separate from the channel to be used as a reference during atlas registration (DAPI, propidium iodide, autofluorescence, etc.). 
+- **2.1 Images**. FASTMAP has been optimized for 8- and 16-bit .tif files, with the label of interest being in an image file which is separate folder from the channel to be used as a reference during atlas registration (DAPI, propidium iodide, autofluorescence, etc.). 
 
 If your images are not already in this format, *ImageJ* can rapidly convert image formats by selecting "Process > Batch > Convert...".
 
@@ -79,7 +79,7 @@ At the bottom of this window, the user will be asked whether ROIs have already b
 
 <img width="1458" alt="Screen Shot 2021-07-15 at 2 38 11 PM" src="https://user-images.githubusercontent.com/44174532/126401086-298d93be-2756-44c3-81ea-e1be6e65b507.png">
 
-- **2.9 Adjusting Registration**. Missized and often off-centered regions will then populate on the registration image and a window titled *ROIManager* will appear appear. Using this ROI Manager, select all regions (click on the region at the top of the list, hold the 'shift' key, then click on the region at the bottom of the list), next select "More... > OR(Combine)", then click "add(t)". Finally, click 'OK'.
+- **2.9 Adjusting Registration**. Missized and often off-centered regions will then populate on the registration image and a window titled *ROIManager* will appear. Using this ROI Manager, select all regions (click on the region at the top of the list, hold the 'shift' key, then click on the region at the bottom of the list), next select "More... > OR(Combine)", then click "add(t)". Finally, click 'OK'.
 
 <img width="1463" alt="Screen Shot 2021-07-15 at 2 43 41 PM" src="https://user-images.githubusercontent.com/44174532/126401267-f10c330f-7601-42ca-badb-cf1b36f44388.png">
 
