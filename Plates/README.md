@@ -10,3 +10,4 @@ The attached folders contain sample atlas plates which can be used as reference 
 **Atlases on File** (contributors listed)
 - Mouse Brain Atlas - Sagittal Orientation - High and Low Levels (Dylan Terstege - University of Calgary)
 - Mouse Brain Atlas - Coronal Orientation, Single Hemisphere - Low Level (Daniela Oboh - University of Calgary)
+- Mouse Brain Atlas - Horizontal Orientation, Bilateral - Low Level (Daniela Oboh - University of Calgary)
