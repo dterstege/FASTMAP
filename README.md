@@ -4,7 +4,11 @@ FASTMAP
 
 FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp Lab at the University of Calgary.
 
-Current Version: V 1.0.1
+Current Version: V 1.1.1
+
+Updates since V 1.0.1:
+   - No more need to manually combine ROIs in ROI manager
+   - Automatically saves registered ROI Sets
 
 <a name="toc"/>
 
