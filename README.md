@@ -6,7 +6,7 @@ FASTMAP was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp L
 
 *FASTMAP was demonstrated at the 2021 Tissue Clearing and Expansion Workshop hosted by the Dynamic Brain Circuits UBC and BCREGMED.  This virtual workshop was recorded, with the FASTMAP presentation beginning at the 13:55 mark in the linked [YouTube video](https://www.youtube.com/watch?v=WnWJj0D7wpI&t=835s).*
 
-<a href="http://example.com/" target="_blank">Hello, world!</a>
+
 
 Current Version: V 1.1.1
 
