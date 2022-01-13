@@ -120,7 +120,7 @@ for (i=(startAt-1); i<(endAt); i++){
  
   //Applying plate to the image
   open(autotempfile);
-  setBatchMode(true);
+  //setBatchMode(true);
   getDimensions(imh,imw,chan,sli,fra);
   ROIname="RoiSet_"+plateNum+".zip";
   ROIfile=platepath+ROIname;
