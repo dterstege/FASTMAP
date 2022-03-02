@@ -167,7 +167,15 @@ Troubleshooting section will be updated periodically should common issues start 
 
 ## 5. Citation
 
+*-- Updated March 2, 2022 --*
+
 If you find FASTMAP to be useful, and apply it in your research, please cite the following article outlining this flexible open-source atlas registration tool:
+
+FASTMAP: Open-Source Flexible Atlas Segmentation Tool for Multi-Area Processing of Biological Images
+Dylan J. Terstege, Daniela O. Oboh, Jonathan R. Epp
+eNeuro 28 February 2022, ENEURO.0325-21.2022; DOI: 10.1523/ENEURO.0325-21.2022
+
+The manuscript outlining this tool can be found [here](https://www.eneuro.org/content/early/2022/02/25/ENEURO.0325-21.2022).
 
 
 <a name="contact"/>
