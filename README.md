@@ -161,7 +161,10 @@ With regions saved, the current reference image can be closed and the next refer
 
 ## 4. Troubleshooting
 
-Troubleshooting section will be updated periodically should common issues start to arise with the plugin.
+-**4.1 "Macro Error, Statement cannot begin with '<' in line X << DOCTYPE html >**
+
+   (*UPDATED 06/02/2022*) Some users have been met with the above error message when attempting to run FASTMAP after installing the plug-in on a Windows device. In these cases, the error was resolved by following these steps: 
+   - Users located the plugin folder in the file directory where their copy of FIJI was installed
 
 <a name="cite"/>
 
