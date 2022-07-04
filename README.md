@@ -168,9 +168,13 @@ With regions saved, the current reference image can be closed and the next refer
    - Upon, inspecting the FASTMAP_.ijm file in this folder by dragging and dropping the file into the FIJI UI, it was noted that several lines of text had been appended to the file.
    - The text was then deleted and replaced with copied code accessed from the [appropriate GitHub page](https://github.com/dterstege/FASTMAP/blob/main/FASTMAP_windows/FASTMAP_.ijm).
    - The issue was resolved upon FIJI restart
+   
+-**4.2 ROIs reverting to original size after clicking outside of their bounds **
+
+   (*Updated July 4, 2022*) When using intricate atlas plate organizations, some users have experienced frequent issues wherein upon clicking outside of the bounds of the ROI it reverts to its original size.  In the case where this occurs, one possible solution is to select the appropriate ROI in the RoiManager window and then use the commands in Edit>Selection>Scale to approximate the resizing of the ROI before continuing with the free-form ROI fitting.  If FASTMAP users are finding that they are running into this issue frequently, it is recommeneded that they click ‘OK’ through all but the last region before making any adjustments.  For example, when working with a plate which has 10 regions I would suggest clicking ‘Ok’ through the first 9 and then ‘Update’ in the RoiManager window when the 10th region is resized. This will allow you to morph each region without consequence. Afterwards, you can click 'Ok' on the final ROI and FASTMAP will continue processing.
 
 
-Thank you to the FASTMAP users who came forward with this issue.  Other troubleshooting procedures will be appended to this section should common issues arise.
+Thank you to the FASTMAP users who came forward with these issues.  Other troubleshooting procedures will be appended to this section should common issues arise.
 
 <a name="cite"/>
 
